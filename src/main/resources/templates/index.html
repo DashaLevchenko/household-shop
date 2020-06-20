@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <!--    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/font-awesome.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/elegant-icons.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/nice-select.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/jquery-ui.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/owl.carousel.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/slicknav.min.css" type="text/css">-->
+    <!--    <link rel="stylesheet" href="style/style.css" type="text/css">-->
+
+    <link rel="stylesheet" href="../static/style/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/style/style.css" type="text/css">
+
+</head>
+
+
+<body>
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="header__top__left">
+                        <ul>
+                            <!--                                                            TODO change email-->
+                            <li><i class="fa fa-envelope"></i> household@gmail.com</li>
+                            <!--                                                            TODO replaced by  schedule-->
+                            <li>График работы: ПН-ПТ 9:00-18:00</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="header__top__right">
+                        <div class="header__top__right__auth">
+                            <a href="#"><i class="fa fa-user"></i> Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="header__logo">
+                    <!--                        TODO put the logo (img/logo.png)-->
+                    <a href="./index.html"><img src="../static/img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <nav class="header__menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Главная</a></li>
+                        <li><a href="./shop-grid.html">Каталог</a></li>
+                        <!--                            TODO change dropdown -->
+                        <!--                                <ul class="header__menu__dropdown">-->
+                        <!--                                    <li><a href="./shop-details.html">Shop Details</a></li>-->
+                        <!--                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>-->
+                        <!--                                    <li><a href="./checkout.html">Check Out</a></li>-->
+                        <!--                                    <li><a href="./blog-details.html">Blog Details</a></li>-->
+                        <!--                                </ul>-->
+                        <li><a href="#">Доставка и оплата </a>
+                        </li>
+                        <li><a href="./blog.html">Контакты</a></li>
+                        <li><a href="./contact.html">О нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="header__cart">
+                    <ul>
+                        <!--                            TODO need to search icons -->
+                        <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="hero__categories">
+                    <div class="hero__categories__all">
+                        <i class="fa fa-bars"></i>
+                        <span>Категории</span>
+                    </div>
+                    <ul>
+                        <!--                        TODO change category-->
+                        <li><a href="#">Fresh Meat</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fruit & Nut Gifts</a></li>
+                        <li><a href="#">Fresh Berries</a></li>
+                        <li><a href="#">Ocean Foods</a></li>
+                        <li><a href="#">Butter & Eggs</a></li>
+                        <li><a href="#">Fastfood</a></li>
+                        <li><a href="#">Fresh Onion</a></li>
+                        <li><a href="#">Papayaya & Crisps</a></li>
+                        <li><a href="#">Oatmeal</a></li>
+                        <li><a href="#">Fresh Bananas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="hero__search">
+                    <div class="hero__search__form">
+                        <form action="#">
+                            <input type="text" placeholder="Например: фитинг латунный">
+                            <button type="submit" class="site-btn">Поиск</button>
+                        </form>
+                    </div>
+                    <div class="hero__search__phone">
+                        <div class="hero__search__phone__icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="hero__search__phone__text">
+                            <!--                            TODO put number-->
+                            <h5>068-000-00-00</h5>
+                            <h5>063-000-00-00</h5>
+                            <h5>050-000-00-00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__item set-bg" data-setbg="../static/img/hero/banner.jpg">
+                    <div class="hero__text">
+                        <span>FRUIT FRESH</span>
+                        <h2>Vegetable <br/>100% Organic</h2>
+                        <p>Free Pickup and Delivery Available</p>
+                        <a href="#" class="primary-btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Section End -->
+<!--<header th:insert="blocks/header :: header"></header>-->
+
+<!--<div th:insert="blocks/hero :: hero"></div>-->
+
+<!--<footer th:insert="blocks/footer :: footer"></footer>-->
+
+<!-- Js Plugins -->
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery.nice-select.min.js"></script>
+<script src="../static/js/jquery-ui.min.js"></script>
+<script src="../static/js/jquery.slicknav.js"></script>
+<script src="../static/js/mixitup.min.js"></script>
+<script src="../static/js/owl.carousel.min.js"></script>
+<script src="../static/js/main.js"></script>
+
+<!--<script src="js/jquery-3.3.1.min.js"></script>-->
+<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="js/jquery.nice-select.min.js"></script>-->
+<!--<script src="js/jquery-ui.min.js"></script>-->
+<!--<script src="js/jquery.slicknav.js"></script>-->
+<!--<script src="js/mixitup.min.js"></script>-->
+<!--<script src="js/owl.carousel.min.js"></script>-->
+<!--<script src="js/main.js"></script>-->
+
+</body>
+
+
+</html>
