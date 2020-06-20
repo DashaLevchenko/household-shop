@@ -179,7 +179,15 @@ ol {
 	display: inline-block;
 	padding: 13px 30px 12px;
 	background: #01aea5;
-	border: none;
+	border: solid 1px;
+	border-color: #01aea5;
+}
+
+.site-btn:hover {
+    background-color: #ffffff;
+    color: #01aea5;
+    border-color: #01aea5;
+    border: solid 1px;
 }
 
 /* Preloder */
@@ -639,7 +647,6 @@ ol {
 
 .hero__search {
 	overflow: hidden;
-	margin-bottom: 30px;
 }
 
 .hero__search__form {
@@ -683,7 +690,7 @@ ol {
 	border: none;
 	height: 48px;
 	font-size: 16px;
-	color: #b2b2b2;
+	color: ##002c2a;
 	padding-left: 20px;
 }
 
@@ -720,7 +727,7 @@ ol {
 }
 
 .hero__search__phone__text h5 {
-	color: #1c1c1c;
+	color: #00514d;
 	font-weight: 700;
 	margin-bottom: 5px;
 }
@@ -731,7 +738,7 @@ ol {
 }
 
 .hero__item {
-	height: 431px;
+	height: 422px;
 	display: flex;
 	align-items: center;
 	padding-left: 75px;
