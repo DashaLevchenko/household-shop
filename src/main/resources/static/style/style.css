@@ -2635,10 +2635,10 @@ ol {
 }
 
 .footer__about ul li {
-	font-size: 16px;
-	color: #1c1c1c;
-	line-height: 36px;
-	list-style: none;
+	font-size: 18px;
+    color: #1c1c1c;
+    line-height: 27px;
+    list-style: none;
 }
 
 .footer__about__logo {
@@ -2671,8 +2671,13 @@ ol {
 
 .footer__widget ul li a {
 	color: #1c1c1c;
-	font-size: 14px;
+	font-size: 21px;
 	line-height: 32px;
+}
+
+.footer__widget ul li a:hover {
+	color: #01aea5 ;
+
 }
 
 .footer__widget p {
