@@ -75,11 +75,10 @@ h6 {
 }
 
 p {
-	font-size: 16px;
-	font-family: "Cairo", sans-serif;
+	font-size: 13px;
+	font-family: "Cairo ", sans-serif;
 	color: #6f6f6f;
 	font-weight: 400;
-	line-height: 26px;
 	margin: 0 0 15px 0;
 }
 
@@ -172,15 +171,15 @@ ol {
 }
 
 .site-btn {
-	font-size: 14px;
-	color: #ffffff;
-	font-weight: 800;
-	text-transform: uppercase;
-	display: inline-block;
-	padding: 13px 30px 12px;
-	background: #01aea5;
-	border: solid 1px;
-	border-color: #01aea5;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 3px 22px;
+    background: #01aea5;
+    border: solid 1px;
+    border-color: #01aea5;
 }
 
 .site-btn:hover {
@@ -1672,10 +1671,6 @@ ol {
   Shop Details
 -----------------------*/
 
-.product-details {
-	padding-top: 80px;
-}
-
 .product__details__pic__item {
 	margin-bottom: 20px;
 	text-align: center;
@@ -1716,14 +1711,14 @@ ol {
 }
 
 .product__details__text .product__details__price {
-	font-size: 30px;
+	font-size: 43px;
 	color: #dd2222;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
 
 .product__details__text p {
-	margin-bottom: 45px;
+
 }
 
 .product__details__text .primary-btn {
@@ -1741,9 +1736,8 @@ ol {
 }
 
 .product__details__text ul {
-	border-top: 1px solid #ebebeb;
 	padding-top: 40px;
-	margin-top: 50px;
+
 }
 
 .product__details__text ul li {
@@ -1784,13 +1778,13 @@ ol {
 }
 
 .pro-qty {
-	width: 140px;
-	height: 50px;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	background: #dbf8f6;
-	margin-bottom: 5px;
+    width: 130px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background: #dbf8f6;
+    margin-bottom: 5px;
 }
 
 .pro-qty input {
@@ -1813,7 +1807,7 @@ ol {
 }
 
 .product__details__tab {
-	padding-top: 45px;
+	padding-top: 10px;
 }
 
 .product__details__tab .nav-tabs {
@@ -1862,7 +1856,7 @@ ol {
 }
 
 .product__details__tab .product__details__tab__desc {
-	padding-top: 44px;
+	padding-top: 10px;
 }
 
 .product__details__tab .product__details__tab__desc h6 {
